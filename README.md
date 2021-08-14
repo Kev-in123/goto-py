@@ -19,7 +19,7 @@ pip install git+https://github.com/Kev-in123/goto-py
 ## Example Usage
 
 ```python
-from goto import goto
+from goto-py import goto
 print("hi")
 goto(2)
 ```
