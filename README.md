@@ -19,7 +19,8 @@ pip install git+https://github.com/Kev-in123/goto-py
 ## Example Usage
 
 ```python
-from goto-py import goto
+from goto_py import goto
+
 print("hi")
-goto(2)
+goto(3, once_only = False)
 ```
