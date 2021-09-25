@@ -1,7 +1,6 @@
-import inspect
+from inspect import stack
 
-FILENAME = inspect.stack()[-1].filename
-
+FILENAME = stack()[-1].filename
 
 def run_once(f):
     def wrapper(*args, **kwargs):
@@ -13,7 +12,7 @@ def run_once(f):
 
 @run_once
 def goto(line, once_only = False):
-  caller = inspect.stack()[1]
+  caller = stack()[1]
   with open(FILENAME, "r") as f:
     contents = "".join(f.readlines()[line-1:])
   goto.has_run = once_only
