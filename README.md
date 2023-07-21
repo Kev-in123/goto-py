@@ -16,11 +16,3 @@ Development version:
 pip install git+https://github.com/Kev-in123/goto-py
 ```
 
-## Example Usage
-
-```python
-from goto_py import goto
-
-print("hi")
-goto(3, once_only = False)
-```
