@@ -16,3 +16,4 @@ Development version:
 pip install git+https://github.com/Kev-in123/goto-py
 ```
 
+Refer to [test.py](https://github.com/Kev-in123/goto-py/blob/main/test.py) for an example
